@@ -108,7 +108,7 @@ export default function Step4() {
                     <div className="flex w-full items-center justify-between md:text-[16px]">
                         <div>
                             <p className="font-[500] text-Marine-blue">{plan} ({moydata === "month" ? "Monthly" : "Yearly"})</p>
-                            <Link to="/step2"><span className="underline text-Cool-gray font-[400] hover:text-Purplish-blue duration-300 ease-in-out transition">Change</span></Link>
+                            <Link to="/multi-step-form/step2"><span className="underline text-Cool-gray font-[400] hover:text-Purplish-blue duration-300 ease-in-out transition">Change</span></Link>
                         </div>
                         <p className="font-[700] text-Marine-blue">${planPrice}/{moydata === "month" ? "mo" : "yr"}</p>
                     </div>
