@@ -30,7 +30,7 @@ export default function Navbar() {
             <NavItem step="1" type="YOUR INFO" on={pathname==="/multi-step-form/"}/>
             <NavItem step="2" type="SELECT PLAN" on={pathname==="/multi-step-form/step2"}/>
             <NavItem step="3" type="ADD-ONS" on={pathname==="/multi-step-form/step3"}/>
-            <NavItem step="4" type="SUMMARY" on={pathname==="/multi-step-form/confirm" || pathname==="/step4"}/>
+            <NavItem step="4" type="SUMMARY" on={pathname==="/multi-step-form/confirm" || pathname==="/multi-step-form/step4"}/>
         </motion.nav>
     )
 }
